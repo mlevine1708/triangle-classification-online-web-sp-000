@@ -37,8 +37,9 @@ attr_accessor :triangle_sides
       raise TriangleError
     end
   end
-
+end 
 
 class TriangleError < StandardError
+end
 
 end
